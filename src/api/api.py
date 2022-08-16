@@ -19,6 +19,3 @@ def conveyor():
 
 
 app.run(host=HOST, port=9999, debug=True)
-
-
-#curl -X POST 127.0.0.1:9999/conveyor    -H 'Content-Type: application/json'    -d '{"login":"my_login","password":"my_password"}'
