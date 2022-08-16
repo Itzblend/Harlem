@@ -1,0 +1,7 @@
+version: "3.5"
+
+services:
+  microservice:
+    build:
+      context: src
+      dockerfile: microservice/Dockerfile
